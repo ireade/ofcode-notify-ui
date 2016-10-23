@@ -95,6 +95,28 @@ a {
 }
 
 
+/* Page - Analytics ************************* */
+
+.subscribers-table {
+	width: 100%;
+	text-align: left;
+}
+
+.subscribers-table td,
+.subscribers-table th {
+	padding: 5px 10px;
+}
+
+.subscribers-table thead {
+	font-weight: 600;
+	color: var(--theme);
+	background: rgb(245,245,245);
+}
+
+.subscribers-table tbody tr:nth-child(even) {
+	background: rgb(245,245,245);
+}
+
 
 
 
@@ -103,7 +125,13 @@ a {
 .site-section {
 	background: #fff;
 	border-radius: 5px;
+	margin-bottom: 30px;
 }
+.site-section--center {
+	text-align: center;
+}
+
+
 .site-section-header {
 	padding: 10px 15px;
 	border-bottom: 1px solid rgb(245,245,245);
@@ -112,6 +140,26 @@ a {
 .site-section-content {
 	
 	padding: 15px;
+}
+
+
+.metric {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.metric em {
+	font-size: 6rem;
+	color: var(--theme);
+	width: 100%;
+	line-height: 1;
+}
+
+.metric span {
+	line-height: 1;
 }
 
 
@@ -189,6 +237,8 @@ input:focus {
 .btn--success:focus {
 	border: ;
 }*/
+
+
 
 
 
