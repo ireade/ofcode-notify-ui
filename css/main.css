@@ -16,7 +16,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.6;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
@@ -33,10 +33,12 @@ a {
 	font-weight: 600;
 	font-size: 1.6rem;
 	color: #fff;
+	padding: 0 15px;
 }
 
 .page-title {
-	font-weight: 600;
+	font-size: 2.6rem;
+	font-weight: 300;
 }
 
 .site-section-title {
@@ -57,7 +59,7 @@ a {
 .wrapper--flex {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center;*/
 	height: 100%;
 	width: 100%;
 }
@@ -111,6 +113,93 @@ a {
 	
 	padding: 15px;
 }
+
+
+/* Forms ************************* */
+
+.input-group {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.input-group:last-child {
+	margin-bottom: 0;
+}
+
+
+label {
+	display: block;
+	font-weight: 400;
+}
+
+
+input,
+button,
+textarea {
+	height: 40px;
+	border: 0;
+	border-radius: 5px;
+	font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+input {
+	display: block;
+	
+	background: rgb(245,245,245);
+	
+	width: 100%;
+
+	outline: none;
+
+	
+
+    padding: 0 10px;
+}
+
+input:focus {
+	border: 1px solid rgb(200,200,200)
+}
+
+
+.btn {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	padding: 0 15px;
+	font-weight: 600;
+
+	cursor: pointer;
+}
+
+.btn .fa {
+	margin-right: 6px;
+}
+
+.btn--success {
+	background: var(--theme);
+	color: #fff;
+}
+
+/*.btn--success:hover,
+.btn--success:focus {
+	border: ;
+}*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
