@@ -1,0 +1,118 @@
+/* Variables ************************* */
+
+:root {
+	--theme: rgb(52, 152, 219);
+}
+
+
+
+/* Type ************************* */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 2rem;
+}
+
+
+a {
+    text-decoration: underline;
+    color: inherit; 
+}
+
+.site-title {
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+.page-title {
+	font-weight: 600;
+}
+
+.site-section-title {
+	font-size: 1.6rem;
+	font-weight: 600;
+
+
+}
+    
+
+/* Site-wide styles ************************* */
+
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 740px;
+}
+.wrapper--flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.site-header {
+	background: rgb(60,60,60);
+	height: 50px;
+	color: rgb(220,220,220);
+	border-top: 4px solid var(--theme);
+}
+
+
+.site-main {
+	background: rgb(245,245,245);
+	min-height: 90vh;
+	padding: 50px 0;
+}
+
+.site-footer {
+	background: rgb(255,255,255);
+	height: 50px;
+	text-align: center;
+}
+
+
+/* Page styles ************************* */
+
+.page-header {
+	display: inline-block;
+	margin-bottom: 30px;
+	border-bottom: 4px solid var(--theme);
+	margin-left: 15px;
+}
+
+
+
+
+
+/* Modules ************************* */
+
+.site-section {
+	background: #fff;
+	border-radius: 5px;
+}
+.site-section-header {
+	padding: 10px 15px;
+	border-bottom: 1px solid rgb(245,245,245);
+}
+
+.site-section-content {
+	
+	padding: 15px;
+}
+
+
+
+
+
