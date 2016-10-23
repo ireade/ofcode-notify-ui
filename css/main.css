@@ -109,7 +109,7 @@ a {
 
 .subscribers-table thead {
 	font-weight: 600;
-	color: var(--theme);
+	/*color: var(--theme);*/
 	background: rgb(245,245,245);
 }
 
